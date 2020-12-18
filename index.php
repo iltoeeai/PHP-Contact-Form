@@ -20,7 +20,7 @@
             } else{
                 //Passed
                 //Recipient Email
-                $toEmail = 'tadas1k@yahoo.com';
+                $toEmail = 'recipient@yahoo.com';
                 $subject = 'Contact request from '. $name;
                 $body = '<h2> Contact request </h2>
                 <h4> Name </h4> <p>' . $name . '</p>
@@ -30,7 +30,7 @@
                 ';
                 //Set email headers
                 $headers = "MIME-Version: 1.0". "\r\n";
-                $headers .= 'From: tadas.kuprinskas@gmail.com>' . "\r\n";
+                $headers .= 'From: yourEmail@gmail.com>' . "\r\n";
                 $headers .= "Content-Type:text/html;charset=UTF-8"."\r\n";
 
                 //Additional headers
